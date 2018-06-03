@@ -1,0 +1,15 @@
+{
+    "bootstrap": true,
+    "server": true,
+    "datacenter": "mikrodock",
+    "data_dir": "/consul/data",
+    "log_level": "INFO",
+    "ca_file": "/consul/certs/ca.cert",
+    "cert_file": "/consul/certs/consul.cert",
+    "key_file": "/consul/certs/consul.key",
+    "verify_incoming": true,
+    "verify_outgoing": true,
+    "dns_config": {
+		  "allow_stale": false
+    }
+}
